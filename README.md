@@ -45,7 +45,7 @@ Desktop view:
 * React.js version 18.2.0
 * React-Dom version 18.2.0
 * React-router-dom version 6.3.0
-* Chakra UI
+* Chakra UI version 2.2.3
 
 ## Setup
 To render this project on your computer:
@@ -54,42 +54,57 @@ To render this project on your computer:
 $open index.html
 
 ## Code Example
-## JavaScript (ES6)
+## Ruby on Rails
+
+```ruby
+class FavoritedActivity < ApplicationRecord
+  belongs_to :user
+  belongs_to :activity
+  has_many :categories
+
+
+  validates :user, uniqueness: { scope: :activity_id }
+end
+```
+
+## JavaScript/React.js
 
 ```js
-function setUpdate() {
-  let seekPosition = 0;
-  if (!isNaN(curr_track.duration)) {
-    //isNaN function returns true if the argument is not a number, otherwise it is false
-    seekPosition = curr_track.currentTime * (100 / curr_track.duration);
-    seek_slider.value = seekPosition;
+<Stack
+            direction={"column"}
+            spacing={3}
+            align={"center"}
+            alignSelf={"center"}
+          >
+           
+              {isLogin ? (
+                <>
+                  <LoginForm onLogin={onLogin} />
+                  <Text color={"black"} bg={"white"}>
+                    Don't have an account? &nbsp;
+                    <Button color="black" onClick={() => setIsLogin(false)}>
+                      Sign Up
+                    </Button>
+                  </Text>
+                </>
+              ) : (
+                <>
+                  <SignupForm onLogin={onLogin} />
 
-    let currentMinutes = Math.floor(curr_track.currentTime / 60);
-    let currentSeconds = Math.floor(
-      curr_track.currentTime - currentMinutes * 60
-    );
-    let durationMinutes = Math.floor(curr_track.duration / 60);
-    let durationSeconds = Math.floor(
-      curr_track.duration - durationMinutes * 60
-    );
+                  <Text color={"black"} bg={"white"}>
+                    Already have an account? &nbsp;
+                    <Button color="black" onClick={() => setIsLogin(true)}>
+                      Log In
+                    </Button>
+                  </Text>
+                </>
+              )}
 
-    if (currentSeconds < 10) {
-      currentSeconds = "0" + currentSeconds;
-    }
-    if (durationSeconds < 10) {
-      durationSeconds = "0" + durationSeconds;
-    }
-    if (currentMinutes < 10) {
-      currentMinutes = "0" + currentMinutes;
-    }
-    if (durationMinutes < 10) {
-      durationMinutes = "0" + durationMinutes;
-    }
-
-    curr_time.textContent = currentMinutes + ":" + currentSeconds;
-    total_duration.textContent = durationMinutes + ":" + durationSeconds;
-  }
-}
+             
+            <Box>
+              
+            </Box>
+          </Stack>
 ```
 
 ## Features
