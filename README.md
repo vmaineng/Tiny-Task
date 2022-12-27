@@ -32,7 +32,8 @@ Desktop view:
 ## Project Demo
 [Click to view site] (https://tiny-task.vercel.app/)
 
-##Project Video
+## Project Video
+[Click to view site] (https://vimeo.com/748869588/2f2d5d8986)
 
 ## Technologies
 ### Backend Development 
