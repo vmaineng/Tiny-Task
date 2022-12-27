@@ -51,8 +51,10 @@ Desktop view:
 ## Setup
 To render this project on your computer:
 1. Clone the GitHub repository locally to your computer
-2. Navigate to the client fodler. In the command line, type the following:
+2. Start the backend, type the command $rails server in the terminal line.
+3. Navigate to the client fodler. In the command line, type the following:
 $npm install and start. 
+
 
 ## Code Example
 ## Ruby on Rails
