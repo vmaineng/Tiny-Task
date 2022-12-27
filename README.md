@@ -71,59 +71,55 @@ end
 
 ```js
 <Stack
-            direction={"column"}
-            spacing={3}
-            align={"center"}
-            alignSelf={"center"}
-          >
+    direction={"column"}
+    spacing={3}
+    align={"center"}
+    alignSelf={"center"}
+   >
            
-              {isLogin ? (
-                <>
-                  <LoginForm onLogin={onLogin} />
-                  <Text color={"black"} bg={"white"}>
-                    Don't have an account? &nbsp;
-                    <Button color="black" onClick={() => setIsLogin(false)}>
-                      Sign Up
-                    </Button>
-                  </Text>
-                </>
-              ) : (
-                <>
-                  <SignupForm onLogin={onLogin} />
+  {isLogin ? (
+      <>
+    <LoginForm onLogin={onLogin} />
+   <Text color={"black"} bg={"white"}>
+     Don't have an account? &nbsp;
+    <Button color="black" onClick={() => setIsLogin(false)}>
+       Sign Up
+     </Button>
+    </Text>
+      </>
+    ) : (
+    <>
+    <SignupForm onLogin={onLogin} />
 
-                  <Text color={"black"} bg={"white"}>
-                    Already have an account? &nbsp;
-                    <Button color="black" onClick={() => setIsLogin(true)}>
-                      Log In
-                    </Button>
-                  </Text>
-                </>
-              )}
+  <Text color={"black"} bg={"white"}>
+    Already have an account? &nbsp;
+      <Button color="black" onClick={() => setIsLogin(true)}>
+        Log In
+      </Button>
+    </Text>
+  </>
+   )}
 
-             
-            <Box>
-              
-            </Box>
-          </Stack>
+  </Stack>
 ```
 
 ## Features
 
-* Front end user interface utilizing Javascript, HTML, and CSS. 
-* Users can fast forward, reverse and pause the song
-* Users are able to start and stop a song at a specific time duration
+* Full stack web application utiling JavaScript, React.js, SQLite, and Ruby on Rails.
+* Authorization and authentication completed with bcrypt.
+* Front-end styled with Chakra UI, Figma, and Canva.
+* Users can sign up for an account through application.
+* Users can add profile information and profile image.
+* Users can favorite an activity, delete an activity, and complete an activity.
 
 
 ## Status
 
-I would like to add repeat, volume, and random button, along with the artist's social media information. 
+Project is finished with option to expand functionality and DRY out code.
 
 ## Inspiration
 
-The inspiration derived from a local artist's request to create a music player to instantly play his music for his fans, friends, and family. Instead of using a framework, I wanted to create a music player with HTML, Javascript, and CSS. 
-
-If you loved any of the songs, please check out more from his Youtube link located below.
-Artist's Youtube: https://www.youtube.com/c/Shotkallar715
+The inspiration derived from collaborating with a group at Flatiron School to create list of activities for parents to complete with children.
 
 ## Contact
 Mai Vang
