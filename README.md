@@ -1,5 +1,5 @@
 # Tiny-Task
->This challenge was for Hacktoberfest 2022 and I created a music playlist for a local artist.
+>Full stack application for parents to discover activities for their children in their leisure time.
 
 ## Table of contents
 * [General info](#general-info)
@@ -25,23 +25,27 @@ Users are able to:
 <div align="center">
 <kbd>
 Desktop view:
-<img width="750" alt="icon" src="https://user-images.githubusercontent.com/100221733/195726467-b8f4cbc7-5cc7-463e-8a9b-736b04255ab0.png">
+<img width="750" alt="icon" src="https://user-images.githubusercontent.com/100221733/209723557-88f1d97a-4d76-469c-9fb5-f80e59c1d249.png">
 </kbd>
 </div>
 
 ## Project Demo
-[Click to view site] (https://playlist-ten.vercel.app/)
+[Click to view site] (https://tiny-task.vercel.app/)
 
 ##Project Video
 
 ## Technologies
 ### Backend Development 
-
+* Ruby on Rails
 
 ### Frontend Development 
 * JavaScript (ES6)
 * HTML5
 * CSS3
+* React.js version 18.2.0
+* React-Dom version 18.2.0
+* React-router-dom version 6.3.0
+* Chakra UI
 
 ## Setup
 To render this project on your computer:
