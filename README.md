@@ -25,7 +25,7 @@ Users are able to:
 <div align="center">
 <kbd>
 Desktop view:
-<img width="750" alt="icon" src="https://user-images.githubusercontent.com/100221733/209727232-65950e73-4df1-43f5-aadb-8fa06a126fbb.png">
+<img width="750" alt="icon" src="https://user-images.githubusercontent.com/100221733/209723557-88f1d97a-4d76-469c-9fb5-f80e59c1d249.png">
 </kbd>
 </div>
 
