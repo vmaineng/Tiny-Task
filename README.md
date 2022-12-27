@@ -1,4 +1,4 @@
-# Shotkallar715_playlist
+# Tiny-Task
 >This challenge was for Hacktoberfest 2022 and I created a music playlist for a local artist.
 
 ## Table of contents
@@ -15,9 +15,12 @@
 ## General Info
 Users are able to:
 
-- Forward, skip to a certain verse in the song, or refer back to the previous songs.
+- can register, login, and logout
+- view all activities
+- favorite activities
+- delete activities
 
-<div align="center">Welcome to BugView. </div>
+<div align="center">Welcome to Tiny-Task </div>
 <br/>
 <div align="center">
 <kbd>
