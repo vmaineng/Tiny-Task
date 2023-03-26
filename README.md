@@ -26,6 +26,11 @@ Users are able to:
 - favorite activities
 - delete activities
 
+
+<img width="750" alt="walk" src="https://user-images.githubusercontent.com/100221733/227748458-3d7d7f63-1a1f-49cb-8720-2880c10c9eec.mp4">
+
+
+
 <div align="center">Welcome to Tiny-Task </div>
 <br/>
 <div align="center">
@@ -36,7 +41,7 @@ Desktop view:
 </div>
 
 ## Project Demo
-[Click to view site] (https://tiny-task.vercel.app/)
+[Click to view site] (https://tiny-lt8j.onrender.com/)
 
 ## Project Video
 [Click to view site] (https://vimeo.com/748869588/2f2d5d8986)
