@@ -20,6 +20,9 @@ Users are able to:
 
 
 - view all activities
+
+<img width="750" alt="walk" src="https://user-images.githubusercontent.com/100221733/227748250-860115c7-4950-43c5-9c71-88ac108286c5.mp4">
+
 - favorite activities
 - delete activities
 
