@@ -16,7 +16,7 @@
 Users are able to:
 
 - can register, login, and logout
-https://user-images.githubusercontent.com/100221733/227748129-ffd021f9-1bac-4e5c-89eb-d529fb74aa15.mp4
+<img width="750" alt="walk" src="https://user-images.githubusercontent.com/100221733/227748129-ffd021f9-1bac-4e5c-89eb-d529fb74aa15.mp4">
 
 
 - view all activities
