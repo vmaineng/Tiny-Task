@@ -70,7 +70,9 @@ rails s
 
  in the terminal line.
 3. Navigate to the client folder. In the command line, type the following:
-$npm install and start. 
+```js
+$npm install and start.
+```
 
 
 ## Code Example
